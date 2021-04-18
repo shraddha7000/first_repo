@@ -50,8 +50,8 @@ o = re.search(r"^hello \d+", "hello 123 shraddha")
 print("^ ==", o.group())
 
 # $ ends with or match at end of string
-o = re.search(r"hello \w*$", "shraddha hello work")
-print("w$ ==", o.group())
+s = re.search(r"hello \w*$", "shraddha hello work")
+print("w$ ==", s.group())
 
 # [] brackets meaning - set of characters
 o = re.search(r"Age [0-7|a-d]", "Age 70")
@@ -65,7 +65,7 @@ print("[]^ example==", o.group())
 o = re.search(r"[A-Za-z0-9\W]+", "aA88!2@#")
 print("[] example==", o.group())
 
-# \ escape character
+""" \ escape character """
 o = re.search(r"Age \\Wvikas", "Age \Wvikas")
 print("\ example ==", o.group())
 
@@ -86,5 +86,5 @@ o = re.search(r"ID \d{3,5}", "ID 1276678 shraddha")
 print("[min,max] ==", o.group())
 
 # {} 0 or 1 repetition
-o = re.search(r"\d{8,8}","ID12034678")
-print("{} == ",o.group())
+o = re.search(r"\d{8,8}", "ID12034678")
+print("{} == ", o.group())
