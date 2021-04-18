@@ -1,0 +1,12 @@
+2021-03-20 13:44:11,690 - F:/python_training/core_python/logging_files/logging_demo.py - CRITICAL - Traceback (most recent call last):
+  File "F:/python_training/core_python/logging_files/logging_demo.py", line 18, in <module>
+    print(l[100]) # raise InderError()
+IndexError: list index out of range
+
+2021-03-20 13:44:11,690 - F:/python_training/core_python/logging_files/logging_demo.py - ERROR - This error message
+2021-04-18 16:21:01,665 - F:\python_training\core_python\logging_files\my_logger.py - CRITICAL - Traceback (most recent call last):
+  File "F:\python_training\core_python\logging_files\my_logger.py", line 18, in <module>
+    print(l[100]) # raise InderError()
+IndexError: list index out of range
+
+2021-04-18 16:21:01,665 - F:\python_training\core_python\logging_files\my_logger.py - ERROR - This error message
